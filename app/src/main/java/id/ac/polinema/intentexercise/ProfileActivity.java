@@ -50,10 +50,7 @@ public class ProfileActivity extends AppCompatActivity {
                 gotoURL(labelHomepage);
             }
         });
-
-
     }
-
     private void gotoURL(String s){
         Uri uri = Uri.parse(s);
         startActivity(new Intent(Intent.ACTION_VIEW,uri));
